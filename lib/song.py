@@ -43,12 +43,3 @@ class Song:
             cls.artists_count[artist] += 1
         else:
             cls.artists_count[artist] = 1
-song1 = Song("Halo", "Beyonce", "Pop")
-song2 = Song("Crazy in Love", "Beyonce", "Pop")
-song3 = Song("Empire State of Mind", "Jay-Z", "Rap")
-
-print(Song.count)
-print(Song.genres)
-print(Song.artists)
-print(Song.genre_count)
-print(Song.artists_count)       
